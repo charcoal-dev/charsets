@@ -1,0 +1,32 @@
+{
+  "name": "charcoal-dev/charsets",
+  "description": "Character sets meta for Charcoal Apps",
+  "type": "library",
+  "homepage": "https://github.com/charcoal-dev/charsets",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Furqan A. Siddiqui",
+      "email": "hello@furqansiddiqui.com",
+      "homepage": "https://www.furqansiddiqui.com",
+      "role": "Author"
+    }
+  ],
+  "require": {
+    "php": "^8.3",
+    "charcoal-dev/contracts": "dev-main"
+  },
+  "autoload": {
+    "psr-4": {
+      "Charcoal\\Charsets\\": [
+        "src"
+      ]
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Charcoal\\Charsets\\Tests\\": "tests/"
+    }
+  },
+  "minimum-stability": "dev"
+}
